@@ -1,0 +1,9 @@
+(
+	q_sig[]
+) = CT2_form	(
+	.clock = clock_sig,
+	.sclr = sclr_sig
+)
+RETURNS (
+	.q[]
+);

@@ -1,0 +1,12 @@
+(
+	cout_sig,
+	q_sig[]
+) = ct_strob_req_YK	(
+	.clock = clock_sig,
+	.cnt_en = cnt_en_sig,
+	.sclr = sclr_sig
+)
+RETURNS (
+	.cout,
+	.q[]
+);

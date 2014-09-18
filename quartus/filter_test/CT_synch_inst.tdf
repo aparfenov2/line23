@@ -1,0 +1,13 @@
+(
+	q_sig[],
+	cout_sig
+) = CT_synch	(
+	.clock = clock_sig,
+	.clk_en = clk_en_sig,
+	.sload = sload_sig,
+	.data[] = data_sig[]
+)
+RETURNS (
+	.q[],
+	.cout
+);

@@ -1,0 +1,420 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.0 Build 132 02/25/2009 SJ Full Version
+# Date created = 16:47:24  February 25, 2010
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		ControllerDME_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY Cyclone
+set_global_assignment -name DEVICE EP1C12Q240I7
+set_global_assignment -name TOP_LEVEL_ENTITY ControllerDME
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:47:24  FEBRUARY 25, 2010"
+set_global_assignment -name LAST_QUARTUS_VERSION "11.0 SP1"
+set_global_assignment -name MISC_FILE "D:/Work/DME_734/plis/Quartus/ControllerDME.dpf"
+set_global_assignment -name DEVICE_FILTER_PACKAGE "ANY QFP"
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 240
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 7
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+
+set_location_assignment PIN_84 -to 15V
+set_location_assignment PIN_222 -to A[10]
+set_location_assignment PIN_219 -to A[11]
+set_location_assignment PIN_21 -to A[12]
+set_location_assignment PIN_20 -to A[13]
+set_location_assignment PIN_19 -to A[14]
+set_location_assignment PIN_18 -to A[15]
+set_location_assignment PIN_17 -to A[16]
+set_location_assignment PIN_218 -to A[17]
+set_location_assignment PIN_217 -to A[18]
+set_location_assignment PIN_216 -to A[19]
+set_location_assignment PIN_193 -to A[2]
+set_location_assignment PIN_194 -to A[3]
+set_location_assignment PIN_195 -to A[4]
+set_location_assignment PIN_196 -to A[5]
+set_location_assignment PIN_197 -to A[6]
+set_location_assignment PIN_225 -to A[7]
+set_location_assignment PIN_224 -to A[8]
+set_location_assignment PIN_223 -to A[9]
+set_location_assignment PIN_48 -to A_MS[0]
+set_location_assignment PIN_46 -to A_MS[1]
+set_location_assignment PIN_188 -to D[0]
+set_location_assignment PIN_202 -to D[10]
+set_location_assignment PIN_203 -to D[11]
+set_location_assignment PIN_206 -to D[12]
+set_location_assignment PIN_207 -to D[13]
+set_location_assignment PIN_208 -to D[14]
+set_location_assignment PIN_213 -to D[15]
+set_location_assignment PIN_238 -to D[16]
+set_location_assignment PIN_237 -to D[17]
+set_location_assignment PIN_236 -to D[18]
+set_location_assignment PIN_235 -to D[19]
+set_location_assignment PIN_187 -to D[1]
+set_location_assignment PIN_234 -to D[20]
+set_location_assignment PIN_233 -to D[21]
+set_location_assignment PIN_228 -to D[22]
+set_location_assignment PIN_227 -to D[23]
+set_location_assignment PIN_16 -to D[24]
+set_location_assignment PIN_15 -to D[25]
+set_location_assignment PIN_14 -to D[26]
+set_location_assignment PIN_13 -to D[27]
+set_location_assignment PIN_12 -to D[28]
+set_location_assignment PIN_11 -to D[29]
+set_location_assignment PIN_186 -to D[2]
+set_location_assignment PIN_8 -to D[30]
+set_location_assignment PIN_7 -to D[31]
+set_location_assignment PIN_185 -to D[3]
+set_location_assignment PIN_184 -to D[4]
+set_location_assignment PIN_183 -to D[5]
+set_location_assignment PIN_182 -to D[6]
+set_location_assignment PIN_181 -to D[7]
+set_location_assignment PIN_200 -to D[8]
+set_location_assignment PIN_201 -to D[9]
+set_location_assignment PIN_105 -to F_SYNT
+set_location_assignment PIN_95 -to I1_UM
+set_location_assignment PIN_94 -to I2_UM
+set_location_assignment PIN_93 -to I3_UM
+set_location_assignment PIN_88 -to I4_UM
+set_location_assignment PIN_104 -to I_PUM
+set_location_assignment PIN_128 -to KGn[0]
+set_location_assignment PIN_127 -to KGn[1]
+set_location_assignment PIN_126 -to KGn[2]
+set_location_assignment PIN_125 -to KGn[3]
+set_location_assignment PIN_124 -to KGn[4]
+set_location_assignment PIN_123 -to KGn[5]
+set_location_assignment PIN_122 -to KGn[6]
+set_location_assignment PIN_4 -to OE
+set_location_assignment PIN_87 -to PUM50V
+set_location_assignment PIN_86 -to P_SYNT
+set_location_assignment PIN_116 -to Reset_SYNT_n
+set_location_assignment PIN_133 -to RxD_1
+set_location_assignment PIN_3 -to RxD_13
+set_location_assignment PIN_134 -to TxD_1
+set_location_assignment PIN_2 -to TxD_13
+set_location_assignment PIN_85 -to UM50V
+set_location_assignment PIN_106 -to UP_STATE_KG
+set_location_assignment PIN_64 -to adc[0]
+set_location_assignment PIN_54 -to adc[10]
+set_location_assignment PIN_53 -to adc[11]
+set_location_assignment PIN_63 -to adc[1]
+set_location_assignment PIN_62 -to adc[2]
+set_location_assignment PIN_61 -to adc[3]
+set_location_assignment PIN_60 -to adc[4]
+set_location_assignment PIN_59 -to adc[5]
+set_location_assignment PIN_58 -to adc[6]
+set_location_assignment PIN_57 -to adc[7]
+set_location_assignment PIN_56 -to adc[8]
+set_location_assignment PIN_55 -to adc[9]
+set_location_assignment PIN_114 -to button_otl
+set_location_assignment PIN_180 -to clr_watch_dog
+set_location_assignment PIN_66 -to dac[0]
+set_location_assignment PIN_82 -to dac[10]
+set_location_assignment PIN_83 -to dac[11]
+set_location_assignment PIN_67 -to dac[1]
+set_location_assignment PIN_68 -to dac[2]
+set_location_assignment PIN_73 -to dac[3]
+set_location_assignment PIN_74 -to dac[4]
+set_location_assignment PIN_75 -to dac[5]
+set_location_assignment PIN_76 -to dac[6]
+set_location_assignment PIN_77 -to dac[7]
+set_location_assignment PIN_78 -to dac[8]
+set_location_assignment PIN_79 -to dac[9]
+set_location_assignment PIN_49 -to en_MS1
+set_location_assignment PIN_47 -to en_MS2
+set_location_assignment PIN_99 -to error_flag_SYNT
+set_location_assignment PIN_168 -to ind[1]
+set_location_assignment PIN_169 -to ind[2]
+set_location_assignment PIN_170 -to ind[3]
+set_location_assignment PIN_173 -to ind[4]
+set_location_assignment PIN_174 -to ind[5]
+set_location_assignment PIN_175 -to ind[6]
+set_location_assignment PIN_176 -to ind[7]
+set_location_assignment PIN_45 -to lock
+set_location_assignment PIN_160 -to log_miso
+set_location_assignment PIN_163 -to log_mosi
+set_location_assignment PIN_162 -to log_sclk
+set_location_assignment PIN_161 -to log_ss_n
+set_location_assignment PIN_164 -to miso_FRAM
+set_location_assignment PIN_167 -to mosi_FRAM
+set_location_assignment PIN_115 -to mosi_SYNT
+set_location_assignment PIN_100 -to obn_n
+set_location_assignment PIN_166 -to sclk_FRAM
+set_location_assignment PIN_117 -to sclk_SYNT
+set_location_assignment PIN_214 -to sram_be[0]
+set_location_assignment PIN_215 -to sram_be[1]
+set_location_assignment PIN_6 -to sram_be[2]
+set_location_assignment PIN_5 -to sram_be[3]
+set_location_assignment PIN_239 -to sram_cs
+set_location_assignment PIN_226 -to sram_we
+set_location_assignment PIN_165 -to ss_n_FRAM
+set_location_assignment PIN_118 -to ss_n_SYNT
+set_location_assignment PIN_119 -to strob_PYMn
+set_location_assignment PIN_121 -to strob_switch_TR
+set_location_assignment PIN_101 -to t_PUM
+set_location_assignment PIN_98 -to t_UM
+set_location_assignment PIN_179 -to reset_
+set_location_assignment PIN_65 -to enable_dac_n
+set_location_assignment PIN_177 -to ind[8]
+set_location_assignment PIN_178 -to sync_hp
+set_location_assignment PIN_144 -to clk_adc
+set_location_assignment PIN_153 -to inp_clk
+set_global_assignment -name DO_MIN_ANALYSIS OFF
+set_global_assignment -name ANALYZE_LATCHES_AS_SYNCHRONOUS_ELEMENTS OFF
+set_global_assignment -name ENABLE_CLOCK_LATENCY ON
+set_global_assignment -name ROUTER_TIMING_OPTIMIZATION_LEVEL MAXIMUM
+set_global_assignment -name OPTIMIZE_IOC_REGISTER_PLACEMENT_FOR_TIMING NORMAL
+set_global_assignment -name AUTO_GLOBAL_MEMORY_CONTROLS ON
+set_global_assignment -name AUTO_PACKED_REGISTERS_CYCLONE NORMAL
+set_global_assignment -name ENABLE_DA_RULE "C103, A109, A110, S101, S102, S103, S104, H102"
+set_global_assignment -name DISABLE_DA_RULE "C101, C102, C104, C105, C106, R101, R102, R103, R104, R105, T101, T102, A101, A102, A103, A104, A105, A106, A107, A108, D101, D102, D103, H101, M101, M102, M103, M104, M105"
+set_global_assignment -name SAVE_DISK_SPACE OFF
+set_global_assignment -name SMART_RECOMPILE ON
+set_global_assignment -name NUM_PARALLEL_PROCESSORS ALL
+set_global_assignment -name ENABLE_SIGNALTAP ON
+set_global_assignment -name OPTIMIZE_HOLD_TIMING OFF
+set_global_assignment -name ROUTER_REGISTER_DUPLICATION OFF
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT -section_id Top
+set_global_assignment -name MUX_RESTRUCTURE ON
+set_global_assignment -name ADV_NETLIST_OPT_SYNTH_WYSIWYG_REMAP OFF
+set_global_assignment -name AUTO_SHIFT_REGISTER_RECOGNITION AUTO
+set_global_assignment -name REMOVE_REDUNDANT_LOGIC_CELLS ON
+set_global_assignment -name IGNORE_LCELL_BUFFERS OFF
+set_global_assignment -name IGNORE_CASCADE_BUFFERS OFF
+set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
+set_global_assignment -name ROUTER_EFFORT_MULTIPLIER 3.0
+set_global_assignment -name OPTIMIZE_TIMING "NORMAL COMPILATION"
+set_global_assignment -name ECO_OPTIMIZE_TIMING OFF
+set_global_assignment -name EXTRACT_VERILOG_STATE_MACHINES OFF
+set_global_assignment -name STRATIXII_OPTIMIZATION_TECHNIQUE AREA
+set_global_assignment -name CYCLONE_OPTIMIZATION_TECHNIQUE SPEED
+set_global_assignment -name STRATIX_OPTIMIZATION_TECHNIQUE AREA
+set_global_assignment -name MAXII_OPTIMIZATION_TECHNIQUE AREA
+set_global_assignment -name MAX7000_OPTIMIZATION_TECHNIQUE AREA
+set_global_assignment -name APEX20K_OPTIMIZATION_TECHNIQUE AREA
+set_global_assignment -name ALLOW_ANY_ROM_SIZE_FOR_RECOGNITION OFF
+set_global_assignment -name ALLOW_ANY_RAM_SIZE_FOR_RECOGNITION OFF
+set_global_assignment -name ALLOW_ANY_SHIFT_REGISTER_SIZE_FOR_RECOGNITION OFF
+set_global_assignment -name AUTO_RAM_RECOGNITION ON
+set_global_assignment -name ADD_PASS_THROUGH_LOGIC_TO_INFERRED_RAMS ON
+set_global_assignment -name FITTER_AUTO_EFFORT_DESIRED_SLACK_MARGIN "0 ns"
+set_global_assignment -name MISC_FILE "D:/Work/contrdme/trunk/plis/ControllerDME.dpf"
+set_global_assignment -name HDL_MESSAGE_OFF 10542
+set_global_assignment -name OPTIMIZE_POWER_DURING_SYNTHESIS "EXTRA EFFORT"
+set_global_assignment -name FORCE_FITTER_TO_AVOID_PERIPHERY_PLACEMENT_WARNINGS ON
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
+set_global_assignment -name RESERVE_ASDO_AFTER_CONFIGURATION "AS INPUT TRI-STATED"
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
+set_location_assignment PIN_159 -to test
+set_location_assignment PIN_131 -to out10
+set_location_assignment PIN_135 -to out12
+set_global_assignment -name USE_SIGNALTAP_FILE adc_samples.stp
+set_location_assignment PIN_120 -to StrobeKG
+set_global_assignment -name STATE_MACHINE_PROCESSING GRAY
+set_global_assignment -name SAFE_STATE_MACHINE ON
+set_global_assignment -name EXTRACT_VHDL_STATE_MACHINES OFF
+set_global_assignment -name MIF_FILE src/cos8900.mif
+set_global_assignment -name MIF_FILE src/cos7395.mif
+set_global_assignment -name MIF_FILE src/cos6205.mif
+set_global_assignment -name MIF_FILE src/cos5110.mif
+set_global_assignment -name MIF_FILE src/cos4240.mif
+set_global_assignment -name MIF_FILE src/cos3475.mif
+set_global_assignment -name VHDL_FILE src/ram_cos8900.vhd
+set_global_assignment -name VHDL_FILE src/ram_cos7395.vhd
+set_global_assignment -name VHDL_FILE src/ram_cos6205.vhd
+set_global_assignment -name VHDL_FILE src/ram_cos5110.vhd
+set_global_assignment -name VHDL_FILE src/ram_cos4240.vhd
+set_global_assignment -name VHDL_FILE src/ram_cos3475.vhd
+set_global_assignment -name VHDL_FILE src/PulseModulator.vhd
+set_global_assignment -name VHDL_FILE sources/ReplyDelayRev1.vhd
+set_global_assignment -name VHDL_FILE sources/sync_lib.vhd
+set_global_assignment -name VHDL_FILE sources/delay_lib.vhd
+set_global_assignment -name VHDL_FILE sources/idcontrol.vhd
+set_global_assignment -name VHDL_FILE sources/divider.vhd
+set_global_assignment -name VHDL_FILE sources/LogicReader.vhd
+set_global_assignment -name VHDL_FILE sources/wdt.vhd
+set_global_assignment -name VHDL_FILE sources/Indicator.vhd
+set_global_assignment -name VHDL_FILE sources/KontrolGenerator.vhd
+set_global_assignment -name VHDL_FILE sources/rectest.vhd
+set_global_assignment -name VHDL_FILE sources/priority.vhd
+set_global_assignment -name VHDL_FILE sources/coder.vhd
+set_global_assignment -name VHDL_FILE sources/DacSamples.vhd
+set_global_assignment -name VHDL_FILE sources/AdcSamples.vhd
+set_global_assignment -name VHDL_FILE sources/SingleImpulse.vhd
+set_global_assignment -name VHDL_FILE sources/ReplyDelay.vhd
+set_global_assignment -name VHDL_FILE CPU.vhd
+set_global_assignment -name VHDL_FILE CPU_jtag_debug_module_sysclk.vhd
+set_global_assignment -name VHDL_FILE CPU_jtag_debug_module_tck.vhd
+set_global_assignment -name VHDL_FILE CPU_jtag_debug_module_wrapper.vhd
+set_global_assignment -name VHDL_FILE CPU_test_bench.vhd
+set_global_assignment -name VHDL_FILE DME_ControllerUnit.vhd
+set_global_assignment -name VHDL_FILE EPCS_SerialFlashController.vhd
+set_global_assignment -name VHDL_FILE inp_pio.vhd
+set_global_assignment -name VHDL_FILE JTAG_UART.vhd
+set_global_assignment -name VHDL_FILE out_pio.vhd
+set_global_assignment -name VHDL_FILE sources/Samples.vhd
+set_global_assignment -name VHDL_FILE SPI_Flash.vhd
+set_global_assignment -name VHDL_FILE SPI_FRAM.vhd
+set_global_assignment -name VHDL_FILE SPI_Synthesizer.vhd
+set_global_assignment -name VHDL_FILE UART_1.vhd
+set_global_assignment -name VHDL_FILE UART_13.vhd
+set_global_assignment -name VHDL_FILE sources/Frequency.vhd
+set_global_assignment -name VHDL_FILE sources/OD.vhd
+set_global_assignment -name VHDL_FILE sources/decoder.vhd
+set_global_assignment -name VHDL_FILE sources/Detector.vhd
+set_global_assignment -name VHDL_FILE sources/PairsCounter.vhd
+set_global_assignment -name VHDL_FILE sources/AnalogMux.vhd
+set_global_assignment -name VHDL_FILE sources/GaussGenerator.vhd
+set_global_assignment -name BDF_FILE ControllerDME.bdf
+set_global_assignment -name VHDL_FILE sources/KS.vhd
+set_global_assignment -name VHDL_FILE sources/HIP.vhd
+set_global_assignment -name VHDL_FILE sources/ClockDivider.vhd
+set_global_assignment -name VHDL_FILE sources/WDTController.vhd
+set_global_assignment -name QIP_FILE PLL.qip
+set_global_assignment -name QIP_FILE DME_ControllerUnit.qip
+set_global_assignment -name VHDL_FILE sources/PriorityController.vhd
+set_global_assignment -name SIGNALTAP_FILE stp1.stp
+set_global_assignment -name SIGNALTAP_FILE stp2.stp
+set_global_assignment -name SIGNALTAP_FILE adc.stp
+set_global_assignment -name SIGNALTAP_FILE adcread.stp
+set_global_assignment -name SIGNALTAP_FILE adc_ba.stp
+set_global_assignment -name SIGNALTAP_FILE adc_ba1.stp
+set_global_assignment -name QIP_FILE sr60.qip
+set_global_assignment -name SIGNALTAP_FILE read_adc.stp
+set_global_assignment -name QIP_FILE cmp1.qip
+set_global_assignment -name SIGNALTAP_FILE ../../../../contrdme/trunk/plis/stp1.stp
+set_global_assignment -name SIGNALTAP_FILE adcdac.stp
+set_global_assignment -name SIGNALTAP_FILE priority.stp
+set_global_assignment -name SIGNALTAP_FILE detector.stp
+set_global_assignment -name SIGNALTAP_FILE coder.stp
+set_global_assignment -name SIGNALTAP_FILE adc_dac_last.stp
+set_global_assignment -name SIGNALTAP_FILE replydelay.stp
+set_global_assignment -name SIGNALTAP_FILE od.stp
+set_global_assignment -name SIGNALTAP_FILE pio.stp
+set_global_assignment -name SIGNALTAP_FILE id.stp
+set_global_assignment -name SIGNALTAP_FILE decoder.stp
+set_global_assignment -name SIGNALTAP_FILE findReplydDlayBug.stp
+set_global_assignment -name SIGNALTAP_FILE adc_direct.stp
+set_global_assignment -name SIGNALTAP_FILE findReplydDlayBug_.stp
+set_global_assignment -name SIGNALTAP_FILE findReplydDlayBug__.stp
+set_global_assignment -name SIGNALTAP_FILE findReplydDlayBug_rev1.stp
+set_global_assignment -name QIP_FILE ram0001.qip
+set_global_assignment -name VHDL_FILE divider400.vhd
+set_global_assignment -name SIGNALTAP_FILE adc_samples.stp
+set_global_assignment -name SLD_NODE_CREATOR_ID 110 -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_ENTITY_NAME sld_signaltap -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_clk -to CLK40 -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[0] -to "adc_fifo:inst49|data[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[1] -to "adc_fifo:inst49|data[10]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[2] -to "adc_fifo:inst49|data[11]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[3] -to "adc_fifo:inst49|data[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[4] -to "adc_fifo:inst49|data[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[5] -to "adc_fifo:inst49|data[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[6] -to "adc_fifo:inst49|data[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[7] -to "adc_fifo:inst49|data[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[8] -to "adc_fifo:inst49|data[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[9] -to "adc_fifo:inst49|data[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[10] -to "adc_fifo:inst49|data[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[11] -to "adc_fifo:inst49|data[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[12] -to "adc_fifo:inst49|q[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[13] -to "adc_fifo:inst49|q[10]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[14] -to "adc_fifo:inst49|q[11]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[15] -to "adc_fifo:inst49|q[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[16] -to "adc_fifo:inst49|q[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[17] -to "adc_fifo:inst49|q[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[18] -to "adc_fifo:inst49|q[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[19] -to "adc_fifo:inst49|q[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[20] -to "adc_fifo:inst49|q[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[21] -to "adc_fifo:inst49|q[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[22] -to "adc_fifo:inst49|q[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[23] -to "adc_fifo:inst49|q[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[24] -to "adc_fifo:inst49|rdempty" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[25] -to "adc_fifo:inst49|rdreq" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[26] -to "adc_fifo:inst49|wrclk" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[27] -to "adc_fifo:inst49|wrfull" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[28] -to "adc_fifo:inst49|wrreq" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[0] -to "adc_fifo:inst49|data[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[1] -to "adc_fifo:inst49|data[10]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[2] -to "adc_fifo:inst49|data[11]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[3] -to "adc_fifo:inst49|data[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[4] -to "adc_fifo:inst49|data[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[5] -to "adc_fifo:inst49|data[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[6] -to "adc_fifo:inst49|data[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[7] -to "adc_fifo:inst49|data[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[8] -to "adc_fifo:inst49|data[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[9] -to "adc_fifo:inst49|data[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[10] -to "adc_fifo:inst49|data[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[11] -to "adc_fifo:inst49|data[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[12] -to "adc_fifo:inst49|q[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[13] -to "adc_fifo:inst49|q[10]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[14] -to "adc_fifo:inst49|q[11]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[15] -to "adc_fifo:inst49|q[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[16] -to "adc_fifo:inst49|q[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[17] -to "adc_fifo:inst49|q[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[18] -to "adc_fifo:inst49|q[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[19] -to "adc_fifo:inst49|q[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[20] -to "adc_fifo:inst49|q[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[21] -to "adc_fifo:inst49|q[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[22] -to "adc_fifo:inst49|q[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[23] -to "adc_fifo:inst49|q[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[24] -to "adc_fifo:inst49|rdempty" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[25] -to "adc_fifo:inst49|rdreq" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[26] -to "adc_fifo:inst49|wrclk" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[27] -to "adc_fifo:inst49|wrfull" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[28] -to "adc_fifo:inst49|wrreq" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_DATA_BITS=29" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_TRIGGER_BITS=29" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_NODE_INFO=805334528" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_POWER_UP_TRIGGER=0" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_INVERSION_MASK=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_INVERSION_MASK_LENGTH=108" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH=0" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_SEGMENT_SIZE=128" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_ATTRIBUTE_MEM_MODE=OFF" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_STATE_FLOW_USE_GENERATED=0" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_STATE_BITS=11" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_BUFFER_FULL_STOP=1" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_CURRENT_RESOURCE_WIDTH=1" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_NODE_CRC_LOWORD=9653" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_NODE_CRC_HIWORD=58529" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_TRIGGER_LEVEL=1" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_SAMPLE_DEPTH=128" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_TRIGGER_IN_ENABLED=0" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_ADVANCED_TRIGGER_ENTITY=basic,1," -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_TRIGGER_LEVEL_PIPELINE=1" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_ENABLE_ADVANCED_TRIGGER=0" -section_id auto_signaltap_0
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

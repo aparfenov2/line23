@@ -1,0 +1,9 @@
+(
+	result_sig
+) = and_2	(
+	.data0 = data0_sig,
+	.data1 = data1_sig
+)
+RETURNS (
+	.result
+);

@@ -1,0 +1,14 @@
+(
+	q_sig[]
+) = ozu_form1	(
+	.data[] = data_sig[],
+	.rdaddress[] = rdaddress_sig[],
+	.rdclock = rdclock_sig,
+	.rden = rden_sig,
+	.wraddress[] = wraddress_sig[],
+	.wrclock = wrclock_sig,
+	.wren = wren_sig
+)
+RETURNS (
+	.q[]
+);

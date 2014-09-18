@@ -1,0 +1,44 @@
+# CLK
+# TriStateBridge
+# SRAM
+# JTAG_UART
+# SPI_Flash
+# SPI_FRAM
+# SPI_Synthesizer
+# UART_1
+# UART_13
+# inp_pio
+# KSController
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) WR_D32_A1_hw.tcl]
+# HIPController
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) WR_D32__hw.tcl]
+# Synthesizer
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) RD_D32__hw.tcl]
+# SelectMuxChannel
+# ODController
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) WR_D32_A5_hw.tcl]
+# Deterctor
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) WR_D32_A2_hw.tcl]
+# Decoder
+# PairsCounter
+# DACSamples
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) M4KWriter_hw.tcl]
+# ADCSamples1
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) RD_D32_A9_hw.tcl]
+# ADCSamples2
+# out_pio
+# IDController
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) WR_D32_A3_hw.tcl]
+# ReplyDelay
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) RD_D32_A2_hw.tcl]
+# PriorityController
+# KontrolGenerator
+# Indicator
+# LogicReader
+# cpu
+set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) cpu.sdc]
+set_global_assignment -name SOURCE_FILE [file join $::quartus(qip_path) cpu.ocp]
+# epcs_flash_controller
+# null
+set_global_assignment -name SOPC_BUILDER_SIGNATURE_ID 001D7DD4CA970000014825E5263A 
+ 

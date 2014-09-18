@@ -1,0 +1,7 @@
+set_global_assignment -name IP_TOOL_NAME "LPM_COUNTER"
+set_global_assignment -name IP_TOOL_VERSION "9.0"
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "ct_strob_req_YK.tdf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "ct_strob_req_YK.bsf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "ct_strob_req_YK_inst.tdf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "ct_strob_req_YK.inc"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "ct_strob_req_YK.cmp"]

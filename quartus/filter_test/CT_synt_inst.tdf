@@ -1,0 +1,11 @@
+(
+	cout_sig,
+	q_sig[]
+) = CT_synt	(
+	.clock = clock_sig,
+	.cnt_en = cnt_en_sig
+)
+RETURNS (
+	.cout,
+	.q[]
+);

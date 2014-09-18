@@ -1,0 +1,13 @@
+(
+	q_sig[],
+	cout_sig
+) = CT_req	(
+	.clock = clock_sig,
+	.cnt_en = cnt_en_sig,
+	.sload = sload_sig,
+	.data[] = data_sig[]
+)
+RETURNS (
+	.q[],
+	.cout
+);
