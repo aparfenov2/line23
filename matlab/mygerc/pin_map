@@ -1,8 +1,8 @@
 out
 --------------
+c28 p119 stb_py out11 cmd 3475 
 c27 p120 stb_kg out10 takt 5110 15ms
 a27 p121 stb_tr out9  sync 7395 15ms strobe
-c28 p119 stb_py out11 cmd 3475 
 
 det
 --------------

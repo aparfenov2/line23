@@ -39,18 +39,9 @@ testbench/
 
 #new some
 
-software/
-dse/
 .qsys_edit/
 greybox_tmp/
-flash/
-script/
-*.stp
 *.jic
 *.map
 *.ocp
 *.tcl~
-
-#matlab HDL generated files
-*.slx
-*.mat

@@ -1,0 +1,11 @@
+software/
+dse/
+flash/
+script/
+#root is symlink-ed
+#root/
+*.stp
+
+#matlab HDL generated files
+*.slx
+*.mat

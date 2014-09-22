@@ -335,10 +335,11 @@ begin
 	StrobedCos3475	<= Cos3475 when  cmdPulse = '1' else (others => '0');  --cmd	
 		
 	
-	MixedCos <= ('0' & '0'& StrobedCos7395(11 downto 2) ) + ('0' & '0'& StrobedCos5110(11 downto 2))	+ ('0' & '0'& StrobedCos3475(11 downto 2));	  
+--	MixedCos <= ('0' & '0'& StrobedCos7395(11 downto 2) ) + ('0' & '0'& StrobedCos5110(11 downto 2))	+ ('0' & '0'& StrobedCos3475(11 downto 2));	  
 	
-	OutSamples <= MixedCos;
+--	OutSamples <= MixedCos;
 --	OutSamples <= Cos3475;
+	OutSamples <= StrobedCos5110;
 	
 	cmdPulse <= cmdStrobe and strobe15ms;
 	takt <=  strobe15ms;
