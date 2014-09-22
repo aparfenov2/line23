@@ -338,6 +338,7 @@ begin
 	MixedCos <= ('0' & '0'& StrobedCos7395(11 downto 2) ) + ('0' & '0'& StrobedCos5110(11 downto 2))	+ ('0' & '0'& StrobedCos3475(11 downto 2));	  
 	
 	OutSamples <= MixedCos;
+--	OutSamples <= Cos3475;
 	
 	cmdPulse <= cmdStrobe and strobe15ms;
 	takt <=  strobe15ms;

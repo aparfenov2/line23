@@ -1,0 +1,6 @@
+.SimulinkProject/
+slprj/
+vsim/
+hdlsrc/
+
+*.mexw64

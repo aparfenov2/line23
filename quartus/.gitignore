@@ -38,6 +38,7 @@ testbench/
 *_sim/
 
 #new some
+
 software/
 dse/
 .qsys_edit/
@@ -49,3 +50,7 @@ script/
 *.map
 *.ocp
 *.tcl~
+
+#matlab HDL generated files
+*.slx
+*.mat

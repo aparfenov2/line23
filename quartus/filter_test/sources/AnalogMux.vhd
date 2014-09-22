@@ -74,31 +74,32 @@ signal OutputChannelRegister : std_logic_vector(3 downto 0);
 
 begin 	  
 	
-	process (CLK_CPU, RST)
-	begin
-	if RST = '0' then
-		InputChannelRegister <= (others => '0');
-	elsif rising_edge(CLK_CPU) then	  
-		if WR = '0' then
-			InputChannelRegister <= Data; 			
-		end if;	
-	end if;	
-	end process;	
-	
-	
-	process (CLK, RST, StrobeKS, TR)
-	begin
-	if RST = '0' or StrobeKS = '1' or TR = '0'  then
-		--OutputChannelRegister <= Video;
-	elsif rising_edge(CLK) then	  		
-		OutputChannelRegister <= InputChannelRegister;	
-	end if;		
-	end process;	
-	
+--	process (CLK_CPU, RST)
+--	begin
+--	if RST = '0' then
+--		InputChannelRegister <= (others => '0');
+--	elsif rising_edge(CLK_CPU) then	  
+--		if WR = '0' then
+--			InputChannelRegister <= Data; 			
+--		end if;	
+--	end if;	
+--	end process;	
+--	
+--	
+--	process (CLK, RST, StrobeKS, TR)
+--	begin
+--	if RST = '0' or StrobeKS = '1' or TR = '0'  then
+--		--OutputChannelRegister <= Video;
+--	elsif rising_edge(CLK) then	  		
+--		OutputChannelRegister <= InputChannelRegister;	
+--	end if;		
+--	end process;	
+--	
 	A_MS <= OutputChannelRegister(1 downto 0);
 	EN_MS1 <= OutputChannelRegister(2);  
 	EN_MS2 <= OutputChannelRegister(3);   
 	
+	OutputChannelRegister <= DAC;
 
 
 end AnalogMux_arch;

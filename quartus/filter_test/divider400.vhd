@@ -16,7 +16,7 @@ end div;
 architecture divider100_arch of div is
 
 	signal clk_100kHz : std_logic;
-	constant Clk100KhzFactor : integer := 400;	--40MHz / 400 = 100 KHz 
+	constant Clk100KhzFactor : integer := 833;	--40MHz / 400 = 100 KHz 
 	
 begin	
 
