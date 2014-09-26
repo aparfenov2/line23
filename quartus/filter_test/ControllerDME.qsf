@@ -366,16 +366,16 @@ set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[45] -t
 set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[46] -to "detect_tone:inst52|f5110:u_f5110|Output_rsvd[8]" -section_id auto_signaltap_0
 set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[47] -to "detect_tone:inst52|f5110:u_f5110|Output_rsvd[9]" -section_id auto_signaltap_0
 set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_NODE_CRC_LOWORD=34373" -section_id auto_signaltap_0
+set_global_assignment -name VERILOG_FILE detector/abs.v
+set_global_assignment -name VERILOG_FILE detector/f8900.v
+set_global_assignment -name VERILOG_FILE detector/f7395.v
+set_global_assignment -name VERILOG_FILE detector/f6205.v
+set_global_assignment -name VERILOG_FILE detector/f5110.v
+set_global_assignment -name VERILOG_FILE detector/f4240.v
+set_global_assignment -name VERILOG_FILE detector/f3475.v
+set_global_assignment -name VERILOG_FILE detector/detect_threshold_detect_threshold.v
+set_global_assignment -name VERILOG_FILE detector/bit_sum8_bit_sum8.v
 set_global_assignment -name VERILOG_FILE detect_tone_inst.v
-set_global_assignment -name VERILOG_FILE root/detect_threshold/detect_threshold_detect_threshold.v
-set_global_assignment -name VERILOG_FILE root/bit_sum8/bit_sum8_bit_sum8.v
-set_global_assignment -name VERILOG_FILE root/f8900.v
-set_global_assignment -name VERILOG_FILE root/f7395.v
-set_global_assignment -name VERILOG_FILE root/f6205.v
-set_global_assignment -name VERILOG_FILE root/f5110.v
-set_global_assignment -name VERILOG_FILE root/f4240.v
-set_global_assignment -name VERILOG_FILE root/f3475.v
-set_global_assignment -name VERILOG_FILE root/detect_tone.v
 set_global_assignment -name MIF_FILE src/cos8900.mif
 set_global_assignment -name MIF_FILE src/cos7395.mif
 set_global_assignment -name MIF_FILE src/cos6205.mif
